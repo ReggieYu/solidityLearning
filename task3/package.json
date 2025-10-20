@@ -1,0 +1,31 @@
+{
+  "name": "task3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.1",
+    "ethers": "^6.15.0",
+    "hardhat": "^2.22.19",
+    "hardhat-deploy": "^1.0.4",
+    "mocha-junit-reporter": "^2.2.1",
+    "mocha-multi-reporters": "^1.5.1",
+    "mochawesome": "^7.1.4",
+    "solidity-coverage": "^0.8.16"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@chainlink/env-enc": "^1.0.5",
+    "@openzeppelin/contracts": "^5.4.0",
+    "@openzeppelin/contracts-upgradeable": "^5.4.0",
+    "dotenv": "^17.2.2"
+  }
+}
